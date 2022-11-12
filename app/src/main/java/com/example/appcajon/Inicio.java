@@ -16,6 +16,8 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
+        Database db = new Database();
+
         btAtractivos = findViewById(R.id.btatract);
         btHospedaje = findViewById(R.id.bthosp);
         btActividades = findViewById(R.id.btactiv);
