@@ -2,4 +2,18 @@
     <string name="app_name">AppCajon</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_maps_condor">MapsActivityCondor</string>
+    <string name="title_activity_maps_animas">MapsActivityAnimas</string>
+    <string name="title_activity_maps_laguna_patos">MapsActivityLagunaPatos</string>
+    <string name="title_activity_maps_test">MapsActivityTest</string>
+    <string name="permission_rationale_location" />
+    <string name="permission_required_toast" />
+    <string name="location_permission_denied" />
+    <string name="title_activity_maps_banos_azules">MapsActivityBanosAzules</string>
+    <string name="title_activity_maps_embalse_yeso">MapsActivityEmbalseYeso</string>
+    <string name="title_activity_maps_morado">MapsActivityMorado</string>
+    <string name="title_activity_maps_tren_patrimonial">MapsActivityTrenPatrimonial</string>
+    <string name="title_activity_maps_termas_colina">MapsActivityTermasColina</string>
+    <string name="title_activity_maps_tunel_tinoco">MapsActivityTunelTinoco</string>
+    <string name="title_activity_maps_termas_plomo">MapsActivityTermasPlomo</string>
+    <string name="title_activity_maps_san_jose">MapsActivitySanJose</string>
 </resources>

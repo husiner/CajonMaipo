@@ -15,12 +15,12 @@ public class Trekking_Condores extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.trekking_condores);
 
-        btEvent = findViewById(R.id.btllegar);
+        btEvent = findViewById(R.id.btllegarcondor);
         btEvent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),  "Button Clicked", Toast.LENGTH_SHORT).show();
-                Intent  intent = new Intent(getApplicationContext(), Condores_llegar.class);
+                Intent  intent = new Intent(getApplicationContext(), MapsActivityCondor.class);
                 startActivity(intent);
             }
         });

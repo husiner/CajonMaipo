@@ -4,59 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Inicio">
-
-    <Button
-        android:id="@+id/bttiend"
-        android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="341dp"
-        android:text="Tiendas"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/bteven"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="292dp"
-        android:text="Eventos"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btrel"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
-        android:text="Relax"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btgastrono"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:text="Gastronomía"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/bthosp"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/btn_bg"
         android:text="Hospedaje"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btcerve"
+        android:id="@+id/btactiv"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
-        android:text="Cerveza"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/btn_bg"
+        android:text="Actividades"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,21 +32,80 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:background="#4CAF50"
-        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/btn_bg"
         android:text="Atractivos"
         android:textColor="#263238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btactiv"
+        android:id="@+id/btcerve"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Actividades"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/btn_bg"
+        android:text="Cerveza"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bteven"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/btn_bg"
+        android:text="Eventos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btgastrono"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/btn_bg"
+        android:text="Gastronomía"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bttiend"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/btn_bg"
+        android:text="Tiendas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btrel"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/btn_bg"
+        android:text="Relax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="371dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cajon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
