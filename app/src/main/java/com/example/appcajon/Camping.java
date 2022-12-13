@@ -2,6 +2,7 @@ package com.example.appcajon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,7 +13,8 @@ import android.widget.ImageButton;
 public class Camping extends AppCompatActivity {
     Button parquealmendro, nogalesroan;
     ImageButton whatsappal, facebookal, instagramal, llamaral, whatsapproan,
-    facebookroan, instagramroan, twitterroan, youtuberoan, llamarroan;
+    facebookroan, instagramroan, twitterroan, youtuberoan, llamarroan, mailalmendro, mailnogales;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,28 @@ public class Camping extends AppCompatActivity {
         twitterroan = findViewById(R.id.twitterroan);
         youtuberoan = findViewById(R.id.youtuberoan);
         llamarroan = findViewById(R.id.btllamarroan);
+        mailalmendro = findViewById(R.id.mailalmendro);
+        mailnogales = findViewById(R.id.mailnogales);
+
+        mailnogales.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "mailto:roanjase@hotmail.com";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        mailalmendro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "mailto:info@parquealmendro.com";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
         parquealmendro.setOnClickListener(new View.OnClickListener() {
             @Override
