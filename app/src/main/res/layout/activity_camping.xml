@@ -89,10 +89,10 @@
             android:layout_height="59dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="864dp"
-            android:tint="#00D404"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/stat_sys_phone_call" />
+            app:srcCompat="@android:drawable/stat_sys_phone_call"
+            app:tint="#00D404" />
 
         <ImageButton
             android:id="@+id/btllamarroan"
@@ -100,10 +100,10 @@
             android:layout_height="59dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="1400dp"
-            android:tint="#00D404"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/stat_sys_phone_call" />
+            app:srcCompat="@android:drawable/stat_sys_phone_call"
+            app:tint="#00D404" />
 
         <TextView
             android:id="@+id/textView7"
@@ -260,6 +260,30 @@
             android:text="Preferir nuestros suelos de Camping Cajón del Maipo significa proximidad a ríos, cascadas, termas, disfrutar de las bellezas de sus montañas nevadas y recreación  sectores casi todo el año verdes. Las alternativas son numerosas pero te recomendamos siempre preferir un camping oficial asociado."
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/mailalmendro"
+            android:layout_width="77dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="307dp"
+            android:layout_marginTop="443dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="972dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        <ImageButton
+            android:id="@+id/mailnogales"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="1329dp"
+            android:layout_marginEnd="11dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
